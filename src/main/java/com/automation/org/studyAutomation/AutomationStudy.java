@@ -38,7 +38,7 @@ public class AutomationStudy {
 	public void SignMethod() throws IOException {
 		// TODO Auto-generated method stub
 		
-		Assert.assertEquals(driver.getTitle(), "Register - PHPTRAVELS");//hard assert
+		//Assert.assertEquals(driver.getTitle(), "Register - PHPTRAVELS");//hard assert
 		
 		ExcelRead read=new ExcelRead();
 		String[] myvalue=read.readExceldata();
