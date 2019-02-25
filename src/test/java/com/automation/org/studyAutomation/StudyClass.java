@@ -41,8 +41,11 @@ public class StudyClass {
 			MediaEntityModelProvider mediaModel = MediaEntityBuilder.createScreenCaptureFromPath(utility.screenshot("newway")).build();
 			test.fail("Error in Details", mediaModel);
 		}
+		RequiredInfo requiredd=new RequiredInfo(driver);
+		requiredd.infophpMethod();
 		
 	}
+	
 	@Parameters("browser")
 	@BeforeTest
 	public void middle(String value)
